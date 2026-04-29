@@ -383,7 +383,7 @@ function renderSummaries(issues) {
         } else {
             // 生成 1 到 200 之间的随机数
             const randomNum = Math.floor(Math.random() * 200) + 1;
-            imgSrc = `https://img.loliapi.cn/i/pp/img${randomNum}.webp`;
+            imgSrc = `https://img.loliapi.com/i/pp/img${randomNum}.webp`;
         }
 
         const imgElement = document.createElement('img');
